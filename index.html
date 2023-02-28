@@ -12,20 +12,20 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="cores.css">
 
-  <title>UNISUAM - EAD | Disciplinas do Professor 2023.1</title>
+  <title>UNISUAM - EAD | Disciplinas do Tutor - 2023.1</title>
 </head>
 
 <body>
   <section class="conteudoTopo">
-    <h1 class="nomeTopo txtBranco">Disciplinas do Professor 2023.1</h1>
+    <h1 id="nomeTopo"class="nomeTopo txtBranco">Disciplinas do Tutor - 2023.1</h1>
   </section>
-  <section id="validacoes" class="validacoes bgBrancoClaro1">
+  <section id="validacoes" class="validacoes ">
     <div class="validadores">
-      <p class="validador"><span>Matrícula: </span><input type="text" id="matricula" value="tut0001"></p>
-      <p class="validador"><input type="button" id="buscar" value="BUSCAR DISCIPLINAS" onclick="buscar()"></p>
+      <p class="validador"><span class="nome"><b>Matrícula:</b></span><input type="text" class="matricula" id="matricula" value="tut0001"></p>
+      <p class="validador"><input type="button" class="buscar" id="buscar" value="BUSCAR DISCIPLINAS" onclick="buscar()"></p>
     </div>
   </section>
-  <section id="disciplinas" class="disciplinas bgBrancoClaro1 displayNone">
+  <section id="disciplinas" class="disciplinas displayNone">
     <table class="tabela">
       <tr>
         <th>MODALIDADE</th>
