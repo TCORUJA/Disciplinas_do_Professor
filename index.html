@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="icon" href="img/icons/iconGuia.png"type="image/x-icon">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cores.css">
+
+  <title>UNISUAM - EAD | Disciplinas do Professor 2023.1</title>
+</head>
+
+<body>
+  <section class="conteudoTopo">
+    <h1 class="nomeTopo txtBranco">Disciplinas do Professor 2023.1</h1>
+  </section>
+  <section id="validacoes" class="validacoes bgBrancoClaro1">
+    <div class="validadores">
+      <p class="validador"><span>Matrícula: </span><input type="text" id="matricula" value="tut0001"></p>
+      <p class="validador"><input type="button" id="buscar" value="BUSCAR DISCIPLINAS" onclick="buscar()"></p>
+    </div>
+  </section>
+  <section id="disciplinas" class="disciplinas bgBrancoClaro1">
+    <table class="tabela">
+      <tr>
+        <th>MODALIDADE</th>
+        <th>CÓDIGO DA TURMA</th> 
+        <th>LINK</th>
+      </tr>
+      <tr class="tut0001 displayNone">
+        <td>DISCIPLINA EAD (100%)</td>
+        <td>2023-1|GEAD0001|EAD|01</td>
+        <td>?</td>
+      </tr>
+      <tr class="tut0001 displayNone">
+        <td>DISCIPLINA EAD (100%)</td>
+        <td>2023-1|GEAD0001|EAD|01</td>
+        <td>?</td>
+      </tr>
+      <tr class="tut0001 displayNone">
+        <td>DISCIPLINA ONLINE (40%)</td>
+        <td>2023-1|GEAD0001|ONLINE|01</td>
+        <td>?</td>
+      </tr>
+      <tr class="tut0002 displayNone">
+        <td>DISCIPLINA EAD (100%)</td>
+        <td>2023-1|GEAD0002|EAD|01</td>
+        <td>?</td>
+      </tr>
+      <tr class="tut0002 displayNone">
+        <td>DISCIPLINA ONLINE (40%)</td>
+        <td>2023-1|GEAD0002|ONLINE|01</td>
+        <td>?</td>
+      </tr>
+      <tr class="tut0002 displayNone">
+        <td>DISCIPLINA ONLINE (40%)</td>
+        <td>2023-1|GEAD0002|ONLINE|01</td>
+        <td>?</td>
+      </tr>
+    </table>
+  </section>
+  
+
+  <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
